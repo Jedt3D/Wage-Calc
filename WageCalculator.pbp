@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.72 (MacOS X - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="Wage Calculator"/>
+    <comment>ทดสอบการพัฒนาโปรแกรม GUI ด้วย PureBasic</comment>
+  </section>
+  <section name="data">
+    <explorer view="" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2020-06-01 00:55" user="worajedt" host="worajedtmbpro2019.local"/>
+  </section>
+  <section name="files">
+    <file name="wageCalculator.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="a7f2906eedfb69cfbc5fa3d6edd151dc"/>
+    </file>
+    <file name="wageCalculator.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="eeac844557ec77cfe159c0ae2e458cd6"/>
+    </file>
+    <file name="Wage Calc.icns">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="781be4b784e3628c60780139b3d86a20"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="wageCalculator.pb"/>
+      <outputfile value="output/Wage Calc.app"/>
+      <compiler version="PureBasic 5.72 (MacOS X - x64)"/>
+      <executable value="output/Wage Calc.app"/>
+      <options xpskin="1" debug="1"/>
+      <icon enable="1">Wage Calc.icns</icon>
+      <format exe="default" cpu="1"/>
+    </target>
+  </section>
+</project>
